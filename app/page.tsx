@@ -16,14 +16,6 @@ import { useState, useEffect } from "react";
 export default function Home() {
   const [isDark, setIsDark] = useState(true);
 
-  // Prevent hydration mismatch
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) return null;
-
   return (
     <div className={"min-h-screen transition-colors duration-500 " + (isDark ? "bg-[#050505] text-white" : "bg-white text-black")}>
 

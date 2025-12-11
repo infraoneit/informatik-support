@@ -20,6 +20,7 @@ export default function StructuredData() {
     const localBusinessSchema = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
+        "@id": "https://informatik-support.ch/#localbusiness",
         name: "InfraOne IT Solutions GmbH",
         image: "https://informatik-support.ch/infraone-logo-weiss.svg", // Fallback/Actual logo URL
         telephone: "+41 52 222 18 18",
