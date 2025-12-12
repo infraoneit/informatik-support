@@ -5,6 +5,8 @@ import CookieBanner from "@/components/CookieBanner";
 import StructuredData from "@/components/StructuredData";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
+import Script from "next/script";
+
 export const metadata: Metadata = {
   title: {
     default: "Informatik Support Winterthur | InfraOne IT Solutions",
@@ -57,6 +59,19 @@ export default function RootLayout({
   return (
     <html lang="de-CH">
       <body className="bg-slate-950 text-slate-50 antialiased">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-XG7WSTVB1F"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-XG7WSTVB1F');
+          `}
+        </Script>
         <LanguageProvider>
           <StructuredData />
           {children}
