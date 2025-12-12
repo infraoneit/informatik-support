@@ -31,7 +31,7 @@ export default function WhatsAppButton() {
 
     return (
         <a
-            href="https://wa.me/41522221818" // Assuming default number, can use constant if available. Using provided phone from prompts.
+            href="https://wa.me/41765875055"
             target="_blank"
             rel="noopener noreferrer"
             className={`fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full bg-[#3C9646] text-white shadow-lg transition-all duration-500 ease-in-out hover:scale-110 hover:shadow-green-500/40 group ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10 pointer-events-none"
