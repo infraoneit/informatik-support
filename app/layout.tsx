@@ -11,12 +11,12 @@ export const metadata: Metadata = {
     template: "%s | InfraOne IT Solutions",
   },
   description:
-    "Professioneller Informatik-Support für KMU in Winterthur und Umgebung. IT Support, Server, Microsoft 365, Firewalls, Backup & Cloud – schnelle Unterstützung durch InfraOne IT Solutions.",
+    "IT Support Zürich – Informatik-Support & IT-Partner für KMU & Private. PC Support, Hilfe bei Internet-, Telefonie- & Computer-Störungen, schnell & zuverlässig.",
   metadataBase: new URL("https://www.informatik-support.ch"),
   keywords: ["Informatik Support", "IT Support Winterthur", "IT Dienstleistung", "InfraOne", "Microsoft 365 Partner", "Server Support", "Firewall", "Cloud Lösungen"],
   openGraph: {
     title: "Informatik Support Winterthur | InfraOne IT Solutions",
-    description: "Professioneller Informatik-Support für KMU in Winterthur und Umgebung.",
+    description: "IT Support Zürich – Informatik-Support & IT-Partner für KMU & Private. PC Support, Hilfe bei Internet-, Telefonie- & Computer-Störungen, schnell & zuverlässig.",
     url: "https://www.informatik-support.ch",
     siteName: "InfraOne IT Solutions",
     locale: "de_CH",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Informatik Support Winterthur | InfraOne IT Solutions",
-    description: "Professioneller Informatik-Support für KMU in Winterthur und Umgebung.",
+    description: "IT Support Zürich – Informatik-Support & IT-Partner für KMU & Private. PC Support, Hilfe bei Internet-, Telefonie- & Computer-Störungen, schnell & zuverlässig.",
     images: ["/teampicture.jpg"],
   },
   icons: {
@@ -41,10 +41,10 @@ export const metadata: Metadata = {
     apple: "/favicon.svg",
   },
   alternates: {
-    canonical: "/",
+    canonical: "https://www.informatik-support.ch",
     languages: {
-      "de-CH": "/",
-      "en-US": "/?lang=en",
+      "de-CH": "https://www.informatik-support.ch",
+      "en-US": "https://www.informatik-support.ch/?lang=en",
     },
   },
 };

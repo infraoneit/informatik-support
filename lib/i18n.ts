@@ -113,7 +113,6 @@ export const translations = {
             ctaCall: "Jetzt anrufen",
             ctaRemote: "Remote-Support starten"
         },
-
         faq: {
             title: "Häufige Fragen",
             items: [
@@ -132,10 +131,12 @@ export const translations = {
         },
         footer: {
             brand: "InfraOne IT Solutions GmbH",
-            text: "Professioneller IT-Support. Sofort. Schweizweit.",
+            text: "Cloud-Telefonanlagen, IT-Netzwerke & Betrieb für KMU in der Schweiz. Aktiv in Winterthur, Schaffhausen, Thurgau & gesamter Deutschschweiz.",
             locations: "Regionen",
             links: "Websites",
-            copyright: "Alle Rechte vorbehalten."
+            copyright: "Alle Rechte vorbehalten.",
+            contact: "Kontakt",
+            websites: "Websites & Projekte"
         },
         cookie: {
             text: "Wir verwenden Cookies für eine optimale Erfahrung.",
@@ -255,7 +256,6 @@ export const translations = {
             ctaCall: "Call now",
             ctaRemote: "Start Remote Support"
         },
-
         faq: {
             title: "Frequently Asked Questions",
             items: [
@@ -274,10 +274,12 @@ export const translations = {
         },
         footer: {
             brand: "InfraOne IT Solutions GmbH",
-            text: "Professional IT Support. Instant. Switzerland-wide.",
+            text: "Cloud phone systems, IT networks & operations for SMEs in Switzerland. Active in Winterthur, Schaffhausen, Thurgau & all of German-speaking Switzerland.",
             locations: "Regions",
             links: "Websites",
-            copyright: "All rights reserved."
+            copyright: "All rights reserved.",
+            contact: "Contact",
+            websites: "Websites & Projects"
         },
         cookie: {
             text: "We use cookies for an optimal experience.",

@@ -1,0 +1,14 @@
+# InfraOne IT Solutions Website
+
+This is a Next.js website for InfraOne IT Solutions, offering IT support services in Switzerland.
+
+## Summary
+The site provides information about IT support services for SMEs and private individuals, including pricing, service areas, and contact information.
+
+## Main Pages
+- `https://www.informatik-support.ch` - Homepage with all information (Single Page Application feel).
+
+## Content
+- **Services**: IT Support, Remote Support, On-Site Support, Cloud Solutions.
+- **Pricing**: Clear hourly rates for different customer types.
+- **Contact**: Phone, Email, WhatsApp.
