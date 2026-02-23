@@ -1,0 +1,30 @@
+[[redirects]]
+  from = "https://informatik-support.ch/*"
+  to = "https://infraone.ch/it-support"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.informatik-support.ch/*"
+  to = "https://infraone.ch/it-support"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://informatik-support.ch/*"
+  to = "https://infraone.ch/it-support"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.informatik-support.ch/*"
+  to = "https://infraone.ch/it-support"
+  status = 301
+  force = true
+
+# Catch-all for any other aliases configured on the site
+[[redirects]]
+  from = "/*"
+  to = "https://infraone.ch/it-support"
+  status = 301
+  force = true
